@@ -44,6 +44,10 @@ body {
   position: absolute;
 }
 
+.hidden {
+  display: none;
+}
+
 .centered {
   top: 50%;
   left: 50%;

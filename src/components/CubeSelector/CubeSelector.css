@@ -1,0 +1,7 @@
+.CubeSelector {
+  transform: scale(5);
+}
+
+.CubeSelector img.active {
+  border: 2px solid red;
+}
