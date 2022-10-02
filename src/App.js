@@ -1,6 +1,8 @@
 import { Physics } from '@react-three/cannon';
 import { Sky } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
+
+import { Cubes } from './components/Cubes';
 import { FirstPersonView } from './components/FirstPersonView';
 import { Ground } from './components/Ground';
 import { Player } from './components/Player';
@@ -15,6 +17,7 @@ function App() {
         <FirstPersonView />
         <Physics>
           <Player />
+          <Cubes />
           <Ground />
         </Physics>
       </Canvas>
